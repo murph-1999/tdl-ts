@@ -3,10 +3,11 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-06-22 22:07:52
- * @LastEditTime: 2022-07-06 20:29:07
+ * @LastEditTime: 2022-08-24 14:35:14
  */
 
 // |是联合类型，遍历它使用in
+// K 是 T 的 键
 type MyPick<T, K extends keyof T> = {
   [P in K]: T[P]
 }
