@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-06-22 22:08:17
- * @LastEditTime: 2022-06-22 22:08:43
+ * @LastEditTime: 2022-08-24 14:37:35
  */
 import type { Equal, Expect } from '@type-challenges/utils'
 
