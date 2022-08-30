@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-08-26 17:45:05
- * @LastEditTime: 2022-08-30 12:29:59
+ * @LastEditTime: 2022-08-30 13:15:24
  */
 type TupleToObject<T extends readonly (string | number | symbol)[]> = {
   [P in T[number]]: P
