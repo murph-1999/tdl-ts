@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-06-22 22:07:52
- * @LastEditTime: 2022-08-30 21:09:08
+ * @LastEditTime: 2022-08-31 18:29:25
  */
 
 // type First<T extends any[]> = T extends [] ? never : T[0]
@@ -12,11 +12,13 @@
 type First<T extends any[]> = T extends [infer First, ...infer Rest] ? First : never
 
 
-
 // 1.T[0] extends类型条件判断
 // 2.tuple的length长度属性
 // 3.extends union
 type ages = [1, 2, 3]
+let x: number[] = [1, 2, 3]
+type y = '1' | '2' | '3'
+
 // 得到一个union类型
 type t2 = ages[number]
 // extends遍历union
