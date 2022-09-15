@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-06-22 22:08:17
- * @LastEditTime: 2022-08-30 20:59:55
+ * @LastEditTime: 2022-09-15 14:11:06
  */
 import type { Equal, Expect } from '@type-challenges/utils'
 
@@ -22,3 +22,7 @@ type errors = [
   // @ts-expect-error
   First<{ 0: 'arrayLike' }>,
 ]
+
+
+const x = [1, 2, 3] as const
+let len = x["length"]
