@@ -3,7 +3,7 @@
  * @version:
  * @Author: Murphy
  * @Date: 2022-06-22 22:07:52
- * @LastEditTime: 2022-09-15 14:16:19
+ * @LastEditTime: 2022-09-20 14:17:23
  */
 
 // type First<T extends any[]> = T extends [] ? never : T[0]
@@ -40,7 +40,7 @@ type t3 = 1 extends t2 ? true : false
 
 // 知识点 📣
 // 1. 三元表达式条件判断，推荐阅读
-// https://juejin.cn/post/7133893150837309476
+// https://juejin.cn/post/ 7133893150837309476
 // https://juejin.cn/post/6844904066485583885
 // 2. tuple 的 length 长度属性T["length"]
 // 3. 运用extends "求交集"
